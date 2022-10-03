@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         
         System.out.print("Digite o valor do raio do círculo: ");
-        double raio = sc.nextDouble();
+        double raio = scan.nextDouble();
 
-        sc.close();
+        scan.close();
 
         double area = Math.PI * Math.pow(raio,2);
         
